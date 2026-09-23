@@ -3,12 +3,12 @@
   <desc>DevOps and full-stack engineer. Rails, React, and Angular on the application side. AWS, Docker, Nginx, and CI/CD underneath.</desc>
   <defs>
     <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#5B21F5"/>
-      <stop offset="0.55" stop-color="#E11D74"/>
-      <stop offset="1" stop-color="#F97316"/>
+      <stop offset="0" stop-color="#6D00FF"/>
+      <stop offset="0.48" stop-color="#FF007A"/>
+      <stop offset="1" stop-color="#FF4D00"/>
     </linearGradient>
     <radialGradient id="glow" cx="0.82" cy="0.35" r="0.5" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#3DFFF3" stop-opacity="0.45"/>
+      <stop offset="0" stop-color="#3DFFF3" stop-opacity="0.72"/>
       <stop offset="1" stop-color="#3DFFF3" stop-opacity="0"/>
       <animate attributeName="cx" values="0.72;0.9;0.68;0.72" dur="16s" repeatCount="indefinite"/>
     </radialGradient>
@@ -19,7 +19,7 @@
   <g clip-path="url(#clip)">
     <rect width="900" height="300" fill="url(#card)"/>
     <rect width="900" height="300" fill="url(#glow)"/>
-    <ellipse cx="40" cy="280" rx="210" ry="130" fill="#FFE56A" opacity="0.22">
+    <ellipse cx="40" cy="280" rx="210" ry="130" fill="#FFE56A" opacity="0.42">
       <animate attributeName="cx" values="10;110;10" dur="14s" repeatCount="indefinite"/>
     </ellipse>
 
@@ -58,28 +58,28 @@
     <rect x="124" y="256" width="32" height="3" rx="1.5" fill="#3DFFF3" opacity="0.35">
       <animate attributeName="opacity" values="0.35;0.35;1;1;0.35;0.35" keyTimes="0;0.28;0.34;0.60;0.66;1" dur="12s" repeatCount="indefinite"/>
     </rect>
-    <rect x="184" y="256" width="52" height="3" rx="1.5" fill="#FFFFFF" opacity="0.35">
+    <rect x="184" y="256" width="52" height="3" rx="1.5" fill="#FF4DDE" opacity="0.35">
       <animate attributeName="opacity" values="0.35;0.35;1;1;0.35" keyTimes="0;0.60;0.66;0.92;1" dur="12s" repeatCount="indefinite"/>
     </rect>
 
     <g transform="translate(748 142)">
-      <circle r="108" fill="#FFFFFF" opacity="0.12">
+      <circle r="108" fill="#FF4DDE" opacity="0.28">
         <animate attributeName="r" values="102;114;102" dur="8s" repeatCount="indefinite"/>
       </circle>
-      <circle r="88" fill="none" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="1.25"/>
+      <circle r="88" fill="none" stroke="#3DFFF3" stroke-opacity="0.95" stroke-width="1.5"/>
       <g>
         <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="26s" repeatCount="indefinite"/>
         <circle cx="88" cy="0" r="5" fill="#FFE56A"/>
         <circle cx="-44" cy="76.2" r="4.5" fill="#3DFFF3"/>
-        <circle cx="-44" cy="-76.2" r="4.5" fill="#FFFFFF"/>
+        <circle cx="-44" cy="-76.2" r="4.5" fill="#FF4DDE"/>
       </g>
       <g transform="translate(-40 -54)">
-        <path d="M0 0 L40 108 L80 0" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M0 0 L40 108 L80 0" fill="none" stroke="#3DFFF3" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
         <circle r="5" cx="0" cy="0" fill="#FFE56A">
           <animateMotion dur="7s" repeatCount="indefinite" path="M0 0 L40 108 L80 0"/>
         </circle>
       </g>
     </g>
   </g>
-  <rect x="0.5" y="0.5" width="899" height="299" rx="20" fill="none" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="1"/>
+  <rect x="0.5" y="0.5" width="899" height="299" rx="20" fill="none" stroke="#FFE56A" stroke-opacity="0.85" stroke-width="1.5"/>
 </svg>
