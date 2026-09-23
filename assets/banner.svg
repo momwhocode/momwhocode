@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img">
   <title>Vipala Gavas</title>
-  <desc>Twelve years shipping production web apps. Rails at the core, cloud underneath, AI-first by default.</desc>
+  <desc>DevOps and full-stack engineer. Twelve years shipping production web apps, Ruby on Rails at the core and AWS underneath.</desc>
   <defs>
     <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#FFFCFD"/>
@@ -22,7 +22,7 @@
       <animate attributeName="cx" values="10;80;10" dur="16s" repeatCount="indefinite"/>
     </ellipse>
 
-    <text x="56" y="74" fill="#7A5360" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="2.6">ELESCRIPT TECHNOLOGIES  &#183;  PUNE</text>
+    <text x="56" y="74" fill="#7A5360" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="2.6">PUNE  &#183;  REMOTE</text>
 
     <text x="56" y="132" fill="#631240" font-family="Georgia, Iowan Old Style, Palatino, Palatino Linotype, serif" font-size="52" font-weight="700">Vipala Gavas</text>
 
@@ -33,32 +33,32 @@
 
     <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#3A242C">
       <text x="56" y="198" opacity="1">
-        Twelve years shipping production web apps
+        DevOps and full-stack specialist
         <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.28;0.34;0.92;1" dur="12s" repeatCount="indefinite"/>
       </text>
       <text x="56" y="198" opacity="0">
-        Rails at the core. AWS and GCP underneath.
+        Twelve years shipping production web apps
         <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.28;0.34;0.60;0.66;1" dur="12s" repeatCount="indefinite"/>
       </text>
       <text x="56" y="198" opacity="0">
-        AI-first by default.
+        Rails at the core. AWS underneath.
         <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.60;0.66;0.92;1" dur="12s" repeatCount="indefinite"/>
       </text>
     </g>
 
     <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#7A5360">
       <text x="56" y="246">Rails</text>
-      <text x="120" y="246">Cloud</text>
-      <text x="196" y="246">AI-first</text>
+      <text x="124" y="246">AWS</text>
+      <text x="184" y="246">DevOps</text>
     </g>
     <g fill="#631240">
       <rect x="56" y="256" width="32" height="3" rx="1.5" opacity="1">
         <animate attributeName="opacity" values="1;1;0.2;0.2;1" keyTimes="0;0.28;0.34;0.92;1" dur="12s" repeatCount="indefinite"/>
       </rect>
-      <rect x="120" y="256" width="40" height="3" rx="1.5" opacity="0.2">
+      <rect x="124" y="256" width="32" height="3" rx="1.5" opacity="0.2">
         <animate attributeName="opacity" values="0.2;0.2;1;1;0.2;0.2" keyTimes="0;0.28;0.34;0.60;0.66;1" dur="12s" repeatCount="indefinite"/>
       </rect>
-      <rect x="196" y="256" width="48" height="3" rx="1.5" opacity="0.2">
+      <rect x="184" y="256" width="52" height="3" rx="1.5" opacity="0.2">
         <animate attributeName="opacity" values="0.2;0.2;1;1;0.2" keyTimes="0;0.60;0.66;0.92;1" dur="12s" repeatCount="indefinite"/>
       </rect>
     </g>
