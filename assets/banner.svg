@@ -1,15 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img">
   <title>Vipala Gavas</title>
-  <desc>DevOps and full-stack engineer. Rails, React, and Django on the application side. AWS, GCP, and Azure underneath.</desc>
+  <desc>DevOps and full-stack engineer. Rails, React, and Angular on the application side. AWS, Docker, Nginx, and CI/CD underneath.</desc>
   <defs>
     <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#FBF8F8"/>
-      <stop offset="1" stop-color="#F3EEEE"/>
+      <stop offset="0" stop-color="#5B21F5"/>
+      <stop offset="0.55" stop-color="#E11D74"/>
+      <stop offset="1" stop-color="#F97316"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0.82" cy="0.38" r="0.45" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#631240" stop-opacity="0.08"/>
-      <stop offset="1" stop-color="#631240" stop-opacity="0"/>
-      <animate attributeName="cx" values="0.74;0.88;0.7;0.74" dur="18s" repeatCount="indefinite"/>
+    <radialGradient id="glow" cx="0.82" cy="0.35" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3DFFF3" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#3DFFF3" stop-opacity="0"/>
+      <animate attributeName="cx" values="0.72;0.9;0.68;0.72" dur="16s" repeatCount="indefinite"/>
     </radialGradient>
     <clipPath id="clip">
       <rect width="900" height="300" rx="20"/>
@@ -18,17 +19,20 @@
   <g clip-path="url(#clip)">
     <rect width="900" height="300" fill="url(#card)"/>
     <rect width="900" height="300" fill="url(#glow)"/>
+    <ellipse cx="40" cy="280" rx="210" ry="130" fill="#FFE56A" opacity="0.22">
+      <animate attributeName="cx" values="10;110;10" dur="14s" repeatCount="indefinite"/>
+    </ellipse>
 
-    <text x="56" y="74" fill="#7A5360" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="2.6">FULL STACK  &#183;  DEVOPS</text>
+    <text x="56" y="74" fill="#C8FFF6" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2.6">FULL STACK  &#183;  DEVOPS</text>
 
-    <text x="56" y="132" fill="#631240" font-family="Georgia, Iowan Old Style, Palatino, Palatino Linotype, serif" font-size="52" font-weight="700">Vipala Gavas</text>
+    <text x="56" y="132" fill="#FFFFFF" font-family="Georgia, Iowan Old Style, Palatino, Palatino Linotype, serif" font-size="52" font-weight="700">Vipala Gavas</text>
 
-    <line x1="56" y1="158" x2="402" y2="158" stroke="#631240" stroke-width="1.75" stroke-linecap="round"/>
-    <circle cx="56" cy="158" r="4" fill="#631240">
+    <line x1="56" y1="158" x2="402" y2="158" stroke="#3DFFF3" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="56" cy="158" r="4.5" fill="#FFE56A">
       <animate attributeName="cx" values="56;402;56" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.2 1;0.45 0 0.2 1" dur="6.5s" repeatCount="indefinite"/>
     </circle>
 
-    <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#2C2426">
+    <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#FFFFFF">
       <text x="56" y="198" opacity="1">
         DevOps and full-stack specialist
         <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.28;0.34;0.92;1" dur="12s" repeatCount="indefinite"/>
@@ -38,46 +42,44 @@
         <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.28;0.34;0.60;0.66;1" dur="12s" repeatCount="indefinite"/>
       </text>
       <text x="56" y="198" opacity="0">
-        AWS, GCP, Azure, and Docker
+        AWS, Docker, Nginx, and CI/CD
         <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.60;0.66;0.92;1" dur="12s" repeatCount="indefinite"/>
       </text>
     </g>
 
-    <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#7A5360">
+    <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="650" fill="#FFFFFF">
       <text x="56" y="246">Rails</text>
-      <text x="120" y="246">Cloud</text>
-      <text x="188" y="246">DevOps</text>
+      <text x="124" y="246">AWS</text>
+      <text x="184" y="246">DevOps</text>
     </g>
-    <g fill="#631240">
-      <rect x="56" y="256" width="32" height="3" rx="1.5" opacity="1">
-        <animate attributeName="opacity" values="1;1;0.22;0.22;1" keyTimes="0;0.28;0.34;0.92;1" dur="12s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="120" y="256" width="40" height="3" rx="1.5" opacity="0.22">
-        <animate attributeName="opacity" values="0.22;0.22;1;1;0.22;0.22" keyTimes="0;0.28;0.34;0.60;0.66;1" dur="12s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="188" y="256" width="52" height="3" rx="1.5" opacity="0.22">
-        <animate attributeName="opacity" values="0.22;0.22;1;1;0.22" keyTimes="0;0.60;0.66;0.92;1" dur="12s" repeatCount="indefinite"/>
-      </rect>
-    </g>
+    <rect x="56" y="256" width="32" height="3" rx="1.5" fill="#FFE56A" opacity="1">
+      <animate attributeName="opacity" values="1;1;0.35;0.35;1" keyTimes="0;0.28;0.34;0.92;1" dur="12s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="124" y="256" width="32" height="3" rx="1.5" fill="#3DFFF3" opacity="0.35">
+      <animate attributeName="opacity" values="0.35;0.35;1;1;0.35;0.35" keyTimes="0;0.28;0.34;0.60;0.66;1" dur="12s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="184" y="256" width="52" height="3" rx="1.5" fill="#FFFFFF" opacity="0.35">
+      <animate attributeName="opacity" values="0.35;0.35;1;1;0.35" keyTimes="0;0.60;0.66;0.92;1" dur="12s" repeatCount="indefinite"/>
+    </rect>
 
     <g transform="translate(748 142)">
-      <circle r="108" fill="#631240" opacity="0.04">
-        <animate attributeName="r" values="102;112;102" dur="8s" repeatCount="indefinite"/>
+      <circle r="108" fill="#FFFFFF" opacity="0.12">
+        <animate attributeName="r" values="102;114;102" dur="8s" repeatCount="indefinite"/>
       </circle>
-      <circle r="88" fill="none" stroke="#631240" stroke-opacity="0.2" stroke-width="1"/>
+      <circle r="88" fill="none" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="1.25"/>
       <g>
         <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="26s" repeatCount="indefinite"/>
-        <circle cx="88" cy="0" r="4" fill="#631240"/>
-        <circle cx="-44" cy="76.2" r="3.5" fill="#631240" opacity="0.45"/>
-        <circle cx="-44" cy="-76.2" r="3.5" fill="#631240" opacity="0.45"/>
+        <circle cx="88" cy="0" r="5" fill="#FFE56A"/>
+        <circle cx="-44" cy="76.2" r="4.5" fill="#3DFFF3"/>
+        <circle cx="-44" cy="-76.2" r="4.5" fill="#FFFFFF"/>
       </g>
       <g transform="translate(-40 -54)">
-        <path d="M0 0 L40 108 L80 0" fill="none" stroke="#631240" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
-        <circle r="4.5" cx="0" cy="0" fill="#631240">
+        <path d="M0 0 L40 108 L80 0" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle r="5" cx="0" cy="0" fill="#FFE56A">
           <animateMotion dur="7s" repeatCount="indefinite" path="M0 0 L40 108 L80 0"/>
         </circle>
       </g>
     </g>
   </g>
-  <rect x="0.5" y="0.5" width="899" height="299" rx="20" fill="none" stroke="#E4D4D6" stroke-width="1"/>
+  <rect x="0.5" y="0.5" width="899" height="299" rx="20" fill="none" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="1"/>
 </svg>
